@@ -1,0 +1,23 @@
+# Ignore WordPress core files
+wp-admin/
+wp-includes/
+
+# Ignore WordPress configuration files
+wp-config.php
+wp-config-sample.php
+
+# Ignore WordPress content files
+wp-content/uploads/
+wp-content/plugins/
+
+
+# Ignore WordPress cache files
+wp-content/cache/
+
+# Ignore WordPress logs
+wp-content/debug.log
+
+# Ignore files recreated by docker-compose
+docker-compose.yml
+docker-compose.override.yml
+db_data
